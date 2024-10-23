@@ -1,0 +1,10 @@
+.content {
+  grid-area: appContent;
+  background-color: #3143f5;
+  border-radius: 10px;
+}
+
+.content img {
+  border-radius: 10px;
+  width: 300px;
+}

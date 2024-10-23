@@ -1,0 +1,23 @@
+.header {
+  grid-area: header;
+  border-radius: 10px;
+  background-color: #4006da;
+}
+
+.header.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header img {
+  width: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.header.content div {
+  flex-grow: 1;
+  text-align: center;
+}
