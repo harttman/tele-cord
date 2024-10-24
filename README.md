@@ -5,7 +5,7 @@
 ## Версія -> 1.0.0
 ## Ціль -> зробити щось нормальне, а не гівно.
 
-<div style="display: center;">
+<div align=center>
 # Мета
 </div>
 
