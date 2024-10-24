@@ -1,10 +1,12 @@
 import styles from "./Navbar.module.css";
+import { Outlet, Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
+  <>
     <nav className={styles.nav}>
       <div>
-        <a href="/profile">Профіль</a>
+        <Link to="/dialogs">Профіль</Link>
       </div>
       <div>
         <a href="/dialogs">Діалоги</a>
@@ -19,5 +21,7 @@ export default function NavBar() {
         Налаштування
       </div>
     </nav>
+    <Outlet />
+  </>
   );
 }
