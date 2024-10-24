@@ -1,5 +1,5 @@
-import styles from "../styles/Profile.module.css";
-import Island from "../assets/Island.jpg";
+import styles from "./Profile.module.css";
+import Island from "./Island.jpg";
 import Post from "./Posts";
 
 export default function Profile() {

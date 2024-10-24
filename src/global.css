@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Sans-Serif;
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 .app_wrapper {
   display: grid;
