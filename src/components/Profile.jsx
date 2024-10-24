@@ -19,7 +19,7 @@ export default function Profile() {
         <br />
         <div className={styles.posts}>
           <div>
-            <Post name="Ілья" content="Я новий користувач" />
+            <Post like={20} name="Ілья" content="Я новий користувач" />
           </div>
           <div>
             <Post name="Мигаль" content="Ха-ха, а я Мигдаль" />
