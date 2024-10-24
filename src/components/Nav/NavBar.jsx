@@ -4,10 +4,10 @@ export default function NavBar() {
   return (
     <nav className={styles.nav}>
       <div>
-        Профіль
+        <a href="/profile">Профіль</a>
       </div>
       <div>
-        Повідомлення
+        <a href="/dialogs">Діалоги</a>
       </div>
       <div>
         Новини
