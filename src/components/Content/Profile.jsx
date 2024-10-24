@@ -1,10 +1,9 @@
-import styles from "./Profile.module.css";
 import Island from "./Island.jpg";
 import Post from "./Posts";
 
 export default function Profile() {
   return (
-    <div className={styles.content}>
+    <div>
       <img src={Island} alt="Not Found" />
       <div>
         Мої пости
@@ -17,7 +16,7 @@ export default function Profile() {
         <button>Додати</button>
         <button>Видалити</button>
         <br />
-        <div className={styles.posts}>
+        <div>
           <div>
             <Post like={20} name="Ілья" content="Я новий користувач" />
           </div>
